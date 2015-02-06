@@ -24,8 +24,7 @@
         init: function() {
             var _this = this;
             $.get(_this.controller + '?action=personal');
-            alert('Ciao mondo');
-            $('#sb-right a[onclick="codiad.MY_PLUGIN.start();"]').attr("onclick", "codiad.MY_PLUGIN.start();");
+            alert('Fine scrittura.');
 
         },
 
