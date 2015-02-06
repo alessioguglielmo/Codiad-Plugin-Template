@@ -22,9 +22,11 @@
         path: curpath,
 
         init: function() {
+            console.log('Inizio esecuzione');
             var _this = this;
             $.get(_this.controller + '?action=personal');
             alert('Fine scrittura.');
+            console.log('Fine esecuzione');
 
         },
 
