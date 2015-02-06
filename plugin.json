@@ -7,7 +7,7 @@
         {
             "action": "codiad.MY_PLUGIN.SOME_METHOD();",
             "icon": "icon-info-circled",
-            "title": "This will be displayed in the rightbar"
+            "title": "Dockerize"
         }
     ],
     "contextmenu": [
@@ -15,7 +15,7 @@
             "action": "codiad.MY_PLUGIN.SOME_METHOD();",
             "icon": "icon-info-circled",
             "applies-to": "both",
-            "title": "This will be displayed in the contextmenu"
+            "title": "Dockerizator"
         }
     ]
 }]
