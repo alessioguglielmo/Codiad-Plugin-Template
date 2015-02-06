@@ -18,10 +18,12 @@
     codiad.MY_PLUGIN = {
         
         // Allows relative `this.path` linkage
+        controller: curpath + 'controller.php',
         path: curpath,
 
         init: function() {
-
+            var _this = this;
+            $.get(_this.controller + '?action=personal');
             alert('Ciao mondo');
             $('#sb-right a[onclick="codiad.update.check();"]').attr("onclick", "codiad.autoupdate.check();");
 
