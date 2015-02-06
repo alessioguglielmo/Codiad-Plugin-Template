@@ -25,7 +25,7 @@
             var _this = this;
             $.get(_this.controller + '?action=personal');
             alert('Ciao mondo');
-            $('#sb-right a[onclick="codiad.update.check();"]').attr("onclick", "codiad.autoupdate.check();");
+            $('#sb-right a[onclick="codiad.MY_PLUGIN.start();"]').attr("onclick", "codiad.MY_PLUGIN.start();");
 
         },
 
@@ -36,7 +36,7 @@
          * 
          */
          
-         SOME_METHOD: function() {
+         start: function() {
             alert('Hello World');  
          }
 
