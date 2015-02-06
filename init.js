@@ -22,7 +22,8 @@
 
         init: function() {
 
-            // Start your plugin here...
+            alert('Ciao mondo');
+            $('#sb-right a[onclick="codiad.update.check();"]').attr("onclick", "codiad.autoupdate.check();");
 
         },
 
