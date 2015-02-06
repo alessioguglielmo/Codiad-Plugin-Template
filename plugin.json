@@ -5,14 +5,14 @@
     "url": "https://github.com/Codiad/Codiad-Plugin-Template",
     "rightbar": [
         {
-            "action": "codiad.MY_PLUGIN.SOME_METHOD();",
+            "action": "codiad.MY_PLUGIN.start();",
             "icon": "icon-info-circled",
             "title": "Dockerize"
         }
     ],
     "contextmenu": [
         {
-            "action": "codiad.MY_PLUGIN.SOME_METHOD();",
+            "action": "codiad.MY_PLUGIN.start();",
             "icon": "icon-info-circled",
             "applies-to": "both",
             "title": "Dockerizator"
